@@ -26,7 +26,7 @@ function myButtonClicked() {
   ).innerHTML = `Your pay will be: $ ${grossPay.toFixed(2)}`
   document.getElementById(
     "deductions"
-  ).innerHTML = `The governement will take: $ ${deductions.toFixed(2)}`
+  ).innerHTML = `The government will take: $ ${deductions.toFixed(2)}`
   document.getElementById(
     "afterDeductions"
   ).innerHTML = `Your pay after deductions is: $ ${afterDeductions.toFixed(2)}`
